@@ -6,9 +6,12 @@ function findSecondLargest() {
     let firstLargest = -Infinity;
     let secondLargest = -Infinity;
     for(let i = 0;i<arr.length; i++){
+        //  if arrray of element is firstLargest then i am updating the largest value to first Largest and previous value to second largest
+
         if(arr[i] > firstLargest){
             secondLargest = firstLargest;
             firstLargest = arr[i];
+            // if array of elements is secondLargest and not equal to firstLargest
         }else if(arr[i] > secondLargest && arr[i] != firstLargest){
             secondLargest = arr[i];
         }
