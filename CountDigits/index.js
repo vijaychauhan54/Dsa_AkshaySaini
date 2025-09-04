@@ -1,6 +1,6 @@
 // count digits
 
-let n = 12;
+let n = -12;
 
 function countDigits(n) {
   // edge case for if number is 0 and negative numbers
